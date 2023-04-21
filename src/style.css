@@ -33,12 +33,35 @@ header h3 {
 }
 img {
     width: 100%;
+    filter: contrast(99%);
 }
+
+table {
+    width: 100%;
+    text-align: left;
+}
+td {
+    border: 1px solid lightgrey;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: smaller;
+}
+
+th {
+    font-weight: bold;
+  
+  padding: 10px;
+}
+
 
 .container{
     margin-right: 100px;
     margin-left: 100px;
 }
+.nbro-pic {
+filter: brightness(80%);
+}
+
 .intro {
 text-align: center;
 padding: 150px;
@@ -73,12 +96,23 @@ margin-right: 400px;
     padding-top: 20px;
 }
 
+.name {
+    font-weight: bold   ;
+}
 .footer { font-family: 'Courier New', Courier, monospace;
     text-align: center;
 padding-top: 50px;
 padding-bottom: 50px;}
 
 .footer a {color: blue;}
+
+
+
+.table-responsive { 
+    overflow-x: auto;
+   
+}
+
 
 
 @media (max-width:1000px) {
